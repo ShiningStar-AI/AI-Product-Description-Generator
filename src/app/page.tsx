@@ -78,12 +78,13 @@ export default function AIGeneratorPage() {
 
       const data = await res.json();
       setDescription(data.description);
-    } catch (err: any) {
-      setError(err.message);
-    } finally {
-      setLoading(false);
-    }
-  };
+    } catch (err) {
+  if (err instanceof Error) {
+    setError(err.message);
+  } else {
+    setError('An unexpected error occurred.');
+  }
+}
 
   return (
     <main className="bg-gray-900 min-h-screen text-white flex justify-center p-4 sm:p-8">
