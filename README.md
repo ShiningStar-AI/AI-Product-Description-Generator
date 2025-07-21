@@ -1,4 +1,6 @@
 ## AI Product Description Generator
+<img width="613" height="864" alt="image" src="https://github.com/user-attachments/assets/7e769471-24ab-457c-a311-092f16cc5027" />
+
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
