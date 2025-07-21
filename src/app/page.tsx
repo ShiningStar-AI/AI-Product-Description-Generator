@@ -84,7 +84,7 @@ export default function AIGeneratorPage() {
   } else {
     setError('An unexpected error occurred.');
   }
-}
+};
 
   return (
     <main className="bg-gray-900 min-h-screen text-white flex justify-center p-4 sm:p-8">
