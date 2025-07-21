@@ -10,8 +10,7 @@
 
 ## AI Product Description Generator
 <p align="center">
-<img width="604" height="490" alt="image" src="<img width="962" height="1079" alt="Screenshot 2025-07-21 155854" src="https://github.com/user-attachments/assets/0b622081-cd4c-4ad5-836d-39bbc9fcf712" />
-<img width="604" height="490" alt="image" src="<img width="962" height="1079" alt="Screenshot 2025-07-21 155854" src="https://github.com/user-attachments/assets/653038de-a192-48e1-98c3-2f82836ec79c" />
+<img width="751" height="1035" alt="image" src="https://github.com/user-attachments/assets/90f52f5d-2755-4548-b393-6b0cc753b8b6" />
 </p>
 <br>
 
