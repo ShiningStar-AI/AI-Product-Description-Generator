@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 // This function handles POST requests to /api/generate
 export async function POST(req: Request) {
   // Get the product name from the request body
-  const { productName } = await req.json();
+  const { productName, targetAudience, keyFeatures, tone, style } = await req.json();
 
   // Make sure we have the API key from the .env.local file
   const apiKey = process.env.GOOGLE_API_KEY;
