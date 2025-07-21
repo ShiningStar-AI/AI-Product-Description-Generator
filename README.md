@@ -1,5 +1,4 @@
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FShiningStar-AI%2FAI-Product-Description-Generator)
-
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-blue?style=for-the-badge)](https://ai-product-description-generator.vercel.app)
 ## 🛠️ Tech Stack
 
 ![Next JS](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
