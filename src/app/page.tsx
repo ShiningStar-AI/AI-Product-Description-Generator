@@ -24,13 +24,14 @@ const templates = [
   },
 ];
 
-export default function AIGeneratorPage() {
-  type Template = {
+type Template = {
   name: string;
   description: string;
   tone: string;
   style: string;
 };
+
+export default function AIGeneratorPage() {
   // State for all the form inputs
   const [productName, setProductName] = useState('');
   const [targetAudience, setTargetAudience] = useState('');
@@ -79,12 +80,15 @@ export default function AIGeneratorPage() {
       const data = await res.json();
       setDescription(data.description);
     } catch (err) {
-  if (err instanceof Error) {
-    setError(err.message);
-  } else {
-    setError('An unexpected error occurred.');
-  }
-};
+      if (err instanceof Error) {
+        setError(err.message);
+      } else {
+        setError('An unexpected error occurred.');
+      }
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <main className="bg-gray-900 min-h-screen text-white flex justify-center p-4 sm:p-8">
