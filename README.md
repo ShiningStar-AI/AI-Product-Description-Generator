@@ -1,5 +1,11 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-blue?style=for-the-badge)](https://ai-product-description-generator-dun.vercel.app)
 
+## AI Product Description Generator
+<p align="center">
+<img width="751" height="1035" alt="image" src="https://github.com/user-attachments/assets/90f52f5d-2755-4548-b393-6b0cc753b8b6" />
+</p>
+<br>
+
 ## 🛠️ Tech Stack
 
 ![Next JS](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
@@ -7,12 +13,6 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-
-## AI Product Description Generator
-<p align="center">
-<img width="751" height="1035" alt="image" src="https://github.com/user-attachments/assets/90f52f5d-2755-4548-b393-6b0cc753b8b6" />
-</p>
-<br>
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
