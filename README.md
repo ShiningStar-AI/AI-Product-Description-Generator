@@ -1,3 +1,5 @@
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen)](https://my-next-ai-app.vercel.app)
+
 ## AI Product Description Generator
 <p align="center">
 <img width="604" height="490" alt="image" src="https://github.com/user-attachments/assets/02278432-d39c-4620-be3e-79885c3d5e4c" />
