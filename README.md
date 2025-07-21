@@ -1,4 +1,4 @@
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-blue?style=for-the-badge)](https://ai-product-description-generator.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-blue?style=for-the-badge)](https://ai-product-description-generator-dun.vercel.app)
 
 ## 🛠️ Tech Stack
 
