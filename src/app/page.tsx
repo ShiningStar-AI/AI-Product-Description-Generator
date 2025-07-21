@@ -21,7 +21,7 @@ export default function AIGeneratorPage() {
       const res = await fetch('/api/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ productName: productInput }),
+        body: JSON.stringify({ productName: productInput, targetAudience: targetAudience }),
       });
 
       if (!res.ok) {
