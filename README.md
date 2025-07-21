@@ -1,5 +1,13 @@
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-blue?style=for-the-badge)](https://my-next-ai-app.vercel.app)
 
+## 🛠️ Tech Stack
+
+![Next JS](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+
 ## AI Product Description Generator
 <p align="center">
 <img width="604" height="490" alt="image" src="https://github.com/user-attachments/assets/02278432-d39c-4620-be3e-79885c3d5e4c" />
