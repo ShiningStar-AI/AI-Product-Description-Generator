@@ -5,6 +5,7 @@ import { useState } from 'react';
 export default function AIGeneratorPage() {
   // State for the product input, the generated description, loading, and errors
   const [productInput, setProductInput] = useState('');
+  const [targetAudience, setTargetAudience] = useState('');
   const [description, setDescription] = useState('');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
@@ -62,6 +63,15 @@ export default function AIGeneratorPage() {
           >
             {loading ? 'Generating...' : 'Generate Description'}
           </button>
+          <label htmlFor="targetAudience" className="text-sm font-medium text-gray-400 mt-4">Target Audience</label>
+<input
+  id="targetAudience"
+  type="text"
+  value={targetAudience}
+  onChange={(e) => setTargetAudience(e.target.value)}
+  placeholder="e.g., young professionals"
+  className="w-full p-3 rounded-lg bg-gray-900 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-purple-500"
+/>
         </form>
 
         {error && <p className="text-red-500 mt-4 text-center">{error}</p>}
