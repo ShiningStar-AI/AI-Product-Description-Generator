@@ -25,6 +25,12 @@ const templates = [
 ];
 
 export default function AIGeneratorPage() {
+  type Template = {
+  name: string;
+  description: string;
+  tone: string;
+  style: string;
+};
   // State for all the form inputs
   const [productName, setProductName] = useState('');
   const [targetAudience, setTargetAudience] = useState('');
@@ -37,7 +43,7 @@ export default function AIGeneratorPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
 
-  const handleTemplateClick = (template: typeof templates[0]) => {
+  const handleTemplateClick = (template: Template) => {
     setTone(template.tone);
     setStyle(template.style);
   };
