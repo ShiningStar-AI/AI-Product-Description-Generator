@@ -22,6 +22,7 @@ export async function POST(req: Request) {
     //const prompt = `Write a compelling and short marketing description for the following product: "${productName}". Focus on its key benefits.`;
     // Detailed
     const prompt = `Write a detailed and compelling multi-paragraph product description for "${productName}". The description should be optimized for an e-commerce platform. Elaborate on the following key features: ${keyFeatures}. The target audience is ${targetAudience}. The tone must be ${tone} and the style should be ${style}. Aim for a description between 100 and 150 words.`;
+    
     // Ask the AI to generate the content
     const result = await model.generateContent(prompt);
     const response = await result.response;
