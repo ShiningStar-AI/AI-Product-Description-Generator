@@ -1,4 +1,4 @@
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Online-brightgreen)](https://my-next-ai-app.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-blue?style=for-the-badge)](https://my-next-ai-app.vercel.app)
 
 ## AI Product Description Generator
 <p align="center">
